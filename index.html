@@ -1,0 +1,571 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Lumière Smart Menu — умные планшеты для ресторанов и кафе. Увеличьте средний чек, ускорьте обслуживание и создайте премиальный опыт гостей."
+    />
+    <title>Lumière Smart Menu</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;600;700&family=Inter:wght@400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="page-shell">
+      <header class="topbar container">
+        <div class="brand" aria-label="Lumière logo">
+          <div class="brand-mark">✦</div>
+          <div class="brand-text">
+            <span class="brand-name">LUMIÈRE</span>
+            <span class="brand-sub">RESTAURANT</span>
+          </div>
+        </div>
+
+        <nav class="nav" aria-label="Main navigation">
+          <a href="#features">Преимущества</a>
+          <a href="#how-it-works">Как работает</a>
+          <a href="#pricing">Тарифы</a>
+          <a href="#faq">FAQ</a>
+        </nav>
+
+        <a class="btn btn-ghost" href="#contact">Связаться</a>
+      </header>
+
+      <main>
+        <section class="hero container">
+          <div class="hero-copy">
+            <span class="eyebrow">Premium digital menu solution</span>
+            <h1>Премиа��ьное smart-меню для вашего ресторана</h1>
+            <p>
+              Умные планшеты Lumière повышают средний чек, ускоряют обслуживание и
+              превращают знакомство с меню в роскошный digital-опыт для гостей.
+            </p>
+
+            <div class="cta-row">
+              <a class="btn btn-primary" href="#pricing">Получить расчет</a>
+              <a class="btn btn-secondary" href="#demo">Смотреть демо</a>
+            </div>
+
+            <ul class="hero-metrics" aria-label="Key metrics">
+              <li>
+                <strong>+28%</strong>
+                <span>средний чек</span>
+              </li>
+              <li>
+                <strong>2x</strong>
+                <span>скорость заказа</span>
+              </li>
+              <li>
+                <strong>24/7</strong>
+                <span>доступность</span>
+              </li>
+            </ul>
+          </div>
+
+          <div class="hero-visual" id="demo" aria-label="Smart menu illustration">
+            <div class="tablet-frame">
+              <div class="tablet-screen">
+                <div class="screen-topbar">
+                  <span>Столик 12</span>
+                  <span>19:42</span>
+                </div>
+
+                <div class="screen-content">
+                  <div class="screen-header">
+                    <div>
+                      <div class="logo-mini">LUMIÈRE</div>
+                      <h2>Добрый вечер!</h2>
+                    </div>
+                    <button class="mini-btn">Ваш заказ</button>
+                  </div>
+
+                  <div class="menu-tabs">
+                    <span class="tab active">Главная</span>
+                    <span class="tab">Меню</span>
+                    <span class="tab">Напитки</span>
+                    <span class="tab">Десерты</span>
+                  </div>
+
+                  <div class="dish-grid">
+                    <article class="dish-card">
+                      <div class="dish-thumb thumb-one"></div>
+                      <h3>Стейк из говядины</h3>
+                      <div class="dish-meta">
+                        <span>1 шт.</span>
+                        <strong>12 900 ₽</strong>
+                      </div>
+                    </article>
+
+                    <article class="dish-card">
+                      <div class="dish-thumb thumb-two"></div>
+                      <h3>Цезарь с курицей</h3>
+                      <div class="dish-meta">
+                        <span>1 шт.</span>
+                        <strong>11 500 ₽</strong>
+                      </div>
+                    </article>
+
+                    <article class="dish-card">
+                      <div class="dish-thumb thumb-three"></div>
+                      <h3>Паста Карбонара</h3>
+                      <div class="dish-meta">
+                        <span>1 шт.</span>
+                        <strong>9 800 ₽</strong>
+                      </div>
+                    </article>
+
+                    <article class="dish-card">
+                      <div class="dish-thumb thumb-four"></div>
+                      <h3>Чизкейк</h3>
+                      <div class="dish-meta">
+                        <span>1 шт.</span>
+                        <strong>4 500 ₽</strong>
+                      </div>
+                    </article>
+                  </div>
+                </div>
+
+                <div class="screen-footer">
+                  <div class="footer-total">
+                    <span>Итого</span>
+                    <strong>21 300 ₽</strong>
+                  </div>
+                  <button class="order-btn">Оформить заказ</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section class="clients container" aria-label="brands and partners">
+          <span>Используют в премиальных заведениях</span>
+          <div class="client-row">
+            <div>Le Maison</div>
+            <div>Atelier</div>
+            <div>Velour</div>
+            <div>Étoile</div>
+            <div>Monarch</div>
+          </div>
+        </section>
+
+        <section id="features" class="features container">
+          <div class="section-heading">
+            <span class="eyebrow">Почему рестораны выбирают Lumière</span>
+            <h2>Решение, которое повышает удовольствие гостей и прибыль</h2>
+          </div>
+
+          <div class="feature-grid">
+            <article class="feature-card">
+              <div class="icon">✦</div>
+              <h3>Премиальный дизайн</h3>
+              <p>Утонченная визуальная подача, которая усиливает атмосферу ресторана.</p>
+            </article>
+
+            <article class="feature-card">
+              <div class="icon">◎</div>
+              <h3>Быстрый заказ</h3>
+              <p>Гостям не нужно ждать официанта — все операции выполняются в 2 клика.</p>
+            </article>
+
+            <article class="feature-card">
+              <div class="icon">⌁</div>
+              <h3>Повышение чеков</h3>
+              <p>Подсказки, рекомендации и визуальные карточки стимулируют дополнительные покупки.</p>
+            </article>
+
+            <article class="feature-card">
+              <div class="icon">✓</div>
+              <h3>Удобная работа команды</h3>
+              <p>Сокращение ошибок, оптимизация кухни и ускорение обслуживания в пиковые часы.</p>
+            </article>
+
+            <article class="feature-card">
+              <div class="icon">☼</div>
+              <h3>Мульти-язычный интерфейс</h3>
+              <p>Поддержка английского, русского, арабского, азиатских языков и многое другое.</p>
+            </article>
+
+            <article class="feature-card">
+              <div class="icon">▣</div>
+              <h3>Полный контроль</h3>
+              <p>Редактирование меню, акций и ассортимента в реальном времени из панели администратора.</p>
+            </article>
+          </div>
+        </section>
+
+        <section id="how-it-works" class="workflow container">
+          <div class="section-heading">
+            <span class="eyebrow">Как это работает</span>
+            <h2>Просто, быстро и без лишних сложностей</h2>
+          </div>
+
+          <div class="steps">
+            <div class="step-card">
+              <span>01</span>
+              <h3>Установка</h3>
+              <p>Подключаем планшеты в зале, баре или на террасе без капитального ремонта.</p>
+            </div>
+            <div class="step-card">
+              <span>02</span>
+              <h3>Настройка меню</h3>
+              <p>Формируем категории, акции, языки, изображения и данные о блюдах.</p>
+            </div>
+            <div class="step-card">
+              <span>03</span>
+              <h3>Запуск</h3>
+              <p>Ваши гости начинают делать заказы прямо с планшета с комфортом и стилем.</p>
+            </div>
+            <div class="step-card">
+              <span>04</span>
+              <h3>Аналитика</h3>
+              <p>Отслеживайте популярные позиции, средний чек и эффективность меню.</p>
+            </div>
+          </div>
+        </section>
+
+        <section class="showcase container">
+          <div class="showcase-copy">
+            <span class="eyebrow">Интеграции</span>
+            <h2>Готово для современных ресторанов</h2>
+            <ul>
+              <li>Онлайн-меню и офлайн-режим</li>
+              <li>Оплата картой или QR</li>
+              <li>Поддержка доставки и takeaway</li>
+              <li>Бронь столиков и оставление отзывов</li>
+              <li>Режим для кафе, баров, ресторанов и отелей</li>
+            </ul>
+          </div>
+
+          <div class="showcase-stack">
+            <div class="mini-panel panel-a">
+              <span>Успешные продажи</span>
+              <strong>+28% средний чек</strong>
+            </div>
+            <div class="mini-panel panel-b">
+              <span>Заказы за 15 минут</span>
+              <strong>94% довольных гостей</strong>
+            </div>
+            <div class="mini-panel panel-c">
+              <span>Без очередей</span>
+              <strong>Скорость сервиса 2x</strong>
+            </div>
+          </div>
+        </section>
+
+        <section id="pricing" class="pricing container">
+          <div class="section-heading">
+            <span class="eyebrow">Тарифы</span>
+            <h2>Выберите решение под ваш формат</h2>
+          </div>
+
+          <div class="pricing-grid">
+            <article class="pricing-card">
+              <span class="plan-name">Start</span>
+              <div class="price">от 29 000 ₽</div>
+              <ul>
+                <li>До 3 планшетов</li>
+                <li>Базовый каталог блюд</li>
+                <li>Админ-панель</li>
+                <li>Поддержка 1 языка</li>
+              </ul>
+              <a href="#contact" class="btn btn-secondary full">Оставить заявку</a>
+            </article>
+
+            <article class="pricing-card featured">
+              <span class="plan-badge">Популярно</span>
+              <span class="plan-name">Premium</span>
+              <div class="price">от 59 000 ₽</div>
+              <ul>
+                <li>До 10 планшетов</li>
+                <li>Мульти-язычный интерфейс</li>
+                <li>Статистика и аналитика</li>
+                <li>Акции и рекомендации</li>
+              </ul>
+              <a href="#contact" class="btn btn-primary full">Получить расчет</a>
+            </article>
+
+            <article class="pricing-card">
+              <span class="plan-name">Corporate</span>
+              <div class="price">Индивидуально</div>
+              <ul>
+                <li>Множественные залы</li>
+                <li>Кастомный дизайн</li>
+                <li>Сервисная поддержка</li>
+                <li>API и интеграции</li>
+              </ul>
+              <a href="#contact" class="btn btn-secondary full">Сделать проект</a>
+            </article>
+          </div>
+        </section>
+
+        <section id="faq" class="faq container">
+          <div class="section-heading">
+            <span class="eyebrow">FAQ</span>
+            <h2>Часто задаваемые вопросы</h2>
+          </div>
+
+          <div class="faq-list">
+            <details open>
+              <summary>Насколько быстро устанавливается система?</summary>
+              <p>Обычно запуск занимает от 7 до 14 дней в зависимости от количества позиций меню и уровня кастомизации.</p>
+            </details>
+            <details>
+              <summary>Можно ли обновлять меню без разработчика?</summary>
+              <p>Да. Админ-панель позволяет редактировать блюда, акции, цены и фотографии без участия программиста.</p>
+            </details>
+            <details>
+              <summary>Поддерживаются ли разные языки?</summary>
+              <p>Да. Поддерживаем английский, русский, арабский, корейский, китайский и другие языки по запросу.</p>
+            </details>
+          </div>
+        </section>
+      </main>
+
+      <footer id="contact" class="footer">
+        <div class="container footer-inner">
+          <div>
+            <div class="brand brand-footer" aria-label="Lumière logo">
+              <div class="brand-mark">✦</div>
+              <div class="brand-text">
+                <span class="brand-name">LUMIÈRE</span>
+                <span class="brand-sub">RESTAURANT</span>
+              </div>
+            </div>
+            <p>Премиальные smart-меню для современных ресторанов и кафе.</p>
+          </div>
+
+          <div class="footer-cta">
+            <h3>Готовы поднять ваш ресторан на новый уровень?</h3>
+            <a class="btn btn-primary" href="mailto:hello@lumiere-menu.com">hello@lumiere-menu.com</a>
+          </div>
+
+          <div class="footer-contact">
+            <a href="tel:+74951234567">+7 (495) 123-45-67</a>
+            <a href="https://wa.me/74951234567" target="_blank" rel="noreferrer">WhatsApp</a>
+          </div>
+        </div>
+      </footer>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+																																																		
